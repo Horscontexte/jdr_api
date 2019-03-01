@@ -6,6 +6,18 @@ const PersonnageSchema = mongoose.Schema({
     age: Number,
     job: String,
     imgurl: String,
+    stats: {
+      app: Number,
+      con: Number,
+      dex: Number,
+      for: Number,
+      tai: Number,
+      edu: Number,
+      int: Number,
+      pou: Number,
+    },
+    comp: String,
+    langue: String,
 }, {
     timestamps: true
 });

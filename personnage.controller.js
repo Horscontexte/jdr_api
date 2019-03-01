@@ -16,6 +16,18 @@ exports.create = (req, res) => {
         age: req.body.age,
         job: req.body.job,
         imgurl: req.body.imgurl,
+        stats: {
+          app: req.body.stats.app,
+          con: req.body.stats.con,
+          dex: req.body.stats.dex,
+          for: req.body.stats.for,
+          tai: req.body.stats.tai,
+          edu: req.body.stats.edu,
+          int: req.body.stats.int,
+          pou: req.body.stats.pou,
+        },
+        comp: req.body.comp,
+        langue: req.body.langue,
     });
 
     // Save Personnage in the database
