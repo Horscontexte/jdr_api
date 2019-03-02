@@ -33,6 +33,7 @@ app.listen(config.serverport, () => {
 });
 
 require('./personnage.routes.js')(app);
+require('./lieu.routes.js')(app);
 // Connecting to the database
 mongoose.connect(config.url, {
     useNewUrlParser: true
