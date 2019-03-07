@@ -18,6 +18,7 @@ const PersonnageSchema = mongoose.Schema({
     },
     comp: String,
     langue: String,
+    publish: Boolean,
 }, {
     timestamps: true
 });

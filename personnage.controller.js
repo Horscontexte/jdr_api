@@ -28,6 +28,7 @@ exports.create = (req, res) => {
         },
         comp: req.body.comp,
         langue: req.body.langue,
+        publish: req.body.publish,
     });
 
     // Save Personnage in the database

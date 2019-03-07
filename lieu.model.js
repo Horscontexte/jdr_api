@@ -7,6 +7,7 @@ const LieuSchema = mongoose.Schema({
     howto: String,
     imgurl: String,
     hotspot: String,
+    publish: Boolean,
 }, {
     timestamps: true
 });

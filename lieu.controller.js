@@ -17,6 +17,7 @@ exports.create = (req, res) => {
         howto: req.body.howto,
         imgurl: req.body.imgurl,
         hotspot: req.body.hotspot,
+        publish: req.body.publish,
     });
 
     // Save lieu in the database
